@@ -8,13 +8,17 @@
         <% if (post.layout != 'page') { %>
             <div class="article-subtitle">
                 <%- partial('post/date', { class_name: 'article-date', date_format: null }) %>
-                <%- partial('post/tag') %>
             </div>
         <% } %>
         <%- partial('post/gallery') %>
         <div class="article-entry" itemprop="articleBody">
             <%- post.content %>
         </div>
+        <% if (post.layout != 'page') { %>
+          <div class="article-tags">
+            <%- partial('post/tag') %>
+          </div>
+        <% } %>
         <footer class="article-footer">
             <%- partial('share/index', { post: post }) %>
         </footer>

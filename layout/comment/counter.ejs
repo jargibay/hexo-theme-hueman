@@ -1,4 +1,7 @@
-<% if (post.comments) { %>
+<% if ( post.comments
+        && ( theme.comment.disqus || theme.comment.duoshuo )
+      )
+ { %>
 <span class="comment-counter">
     <i class="fa fa-comments-o"></i>
     <% if (theme.comment.disqus) { %>

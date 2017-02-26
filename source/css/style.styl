@@ -89,7 +89,7 @@ code
     .main-body-header
         background: #fff
         position: relative
-        padding: 18px 30px 17px
+        padding: 13px 30px 13px
         border-bottom: 1px solid color-border-light
         color: color-default + #111
         font-size: 16px
@@ -100,11 +100,14 @@ code
             margin-right: 8px
         i
             font-weight: 400
+            color: color-nav-background
         em, a
             @extend $block-caption
             color: color-grey
     .main-body-content
         clearfix()
+        i
+            color: color-nav-background
 
 @import "_partial/header"
 @import "_partial/nav"
@@ -116,4 +119,5 @@ code
 @import "_partial/assets"
 @import "_partial/insight"
 @import "_highlight/index"
+@import "_retina"
 @import "_responsive"

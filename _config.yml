@@ -1,0 +1,69 @@
+# Menus
+menu:
+    Home: /
+    # Delete this row if you don't want categories in your header nav bar
+    Categories:
+#    About: /about/
+
+# Customize
+customize:
+    header-background-image: "/media/background/02_Foto350x1450.jpeg"
+    header-background-image-lowres: "/media/background/02_Foto500x500px.jpeg"
+    logo:
+        width: 260px
+        height: 156px
+        url: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg"
+    theme_color: '#d5c28a'
+    highlight: androidstudio
+    sidebar: right # sidebar position, options: left, right
+    thumbnail: false # enable posts thumbnail, options: true, false
+    favicon: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg" # path to favicon
+    social_links: # for more icons, please see http://fontawesome.io/icons/#brand
+        twitter: /
+        facebook: /
+        google-plus: /
+        rss: /
+
+# Widgets
+widgets:
+#    - recent_posts
+#    - category
+#    - archive
+#    - tag
+    - links
+    - tagcloud
+
+# Search
+search:
+    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+    swiftype: # enter swiftype install key here
+    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# Comment
+comment:
+  disqus: # enter disqus shortname here
+  duoshuo: # enter duoshuo shortname here
+  youyan: # enter youyan uid here
+  facebook: true
+
+# Share
+share: default # options: jiathis, bdshare, addtoany, default
+
+# Plugins
+plugins:
+    lightgallery: true # options: true, false
+    google_analytics: UA-88860633-1 # enter the tracking ID for your Google Analytics
+    baidu_analytics: # enter Baidu Analytics hash key
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
+    links:
+        Ejercicios Espirituales: http://www.ejerciciosive.org/
+        Canal Youtube: https://youtu.be/909Mcx9onMM
+        Agencia informativa católica Argentina: http://aica.org/
+        Basílica de Lujan: http://www.basilicadelujan.org.ar/

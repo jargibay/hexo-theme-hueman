@@ -1,3 +1,8 @@
+<% if(page.archive
+   || page.category
+   || page.tag
+   || is_post())
+   { %>
 <div class="main-body-header">
     <h1 class="header">
     <%
@@ -15,7 +20,7 @@
         } else if (page.tag) {
             title = '<i class="icon fa-2x fa fa-tag"></i>' + __('index.tag') + ': <em>' + page.tag + '</em>';
         } else if (is_post()) {
-            title = list_categories(page.categories, {show_count: false, style: 'none', class: 'page-title', separator: '<i class="icon fa fa-angle-right"></i>'});
+            title = '<i class="icon fa-2x fa fa-folder-open"></i>' + list_categories(page.categories, {show_count: false, style: 'none', class: 'page-title', separator: '<i class="icon fa fa-angle-right"></i>'});
             if (title == "") {
                 title = __('index.uncategorized');
             }
@@ -32,3 +37,4 @@
     <%- title %>
     </h1>
 </div>
+<% } %>

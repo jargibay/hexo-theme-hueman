@@ -7,8 +7,8 @@ menu:
 
 # Customize
 customize:
-    header-background-image: "http://media.argibay.org/background/02_Foto350x1450.jpeg"
-    header-background-image-lowres: "http://media.argibay.org/background/02_Foto500x500px.jpeg"
+    header-background-image: "/media/background/02_Foto350x1450.jpeg"
+    header-background-image-lowres: "/media/background/02_Foto500x500px.jpeg"
     logo:
         width: 260px
         height: 156px
@@ -30,8 +30,8 @@ widgets:
 #    - category
 #    - archive
 #    - tag
-    - tagcloud
     - links
+    - tagcloud
 
 # Search
 search:

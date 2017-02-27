@@ -20,18 +20,19 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg" # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        twitter: /
-        facebook: /
-        google-plus: /
-        rss: /
+        twitter: https://twitter.com/mamaantula?lang=es
+        facebook: https://www.facebook.com/ProBeatificacionyCanonizacionDeMamaAntula
+        # google-plus: /
+        rss: /atom.xml
+        comment: http://mamaantulaorg.blogspot.com.ar/
 
 # Widgets
 widgets:
-#    - recent_posts
+    - links
 #    - category
 #    - archive
 #    - tag
-    - links
+    - recent_posts
     - tagcloud
 
 # Search

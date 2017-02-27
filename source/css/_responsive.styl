@@ -1,4 +1,38 @@
 /* ------------------------------------------------------------------------- *
+ *    Style Fix : Printing
+/* ------------------------------------------------------------------------- */
+@media print
+    #header
+        display: none
+        #main-nav, #sub-nav
+            display: none
+    .main-body-header
+          display:none
+    .main-body-inner
+        background: none
+        if sidebar is right
+            padding-right: 0px
+        else
+            padding-left: 0px
+        #sidebar
+            display: none
+            margin-right: 0px
+            background: none
+    .container
+        padding: 0px
+    #comments
+        display: none
+    #footer
+        display: none
+    @page
+        margin: 1cm
+    h1, h2, h3, h4, h5, h6, h7
+        page-break-after: avoid
+    img, table, figure
+        page-break-inside: avoid
+    fn
+        float: footnote
+/* ------------------------------------------------------------------------- *
  *    Style Fix : > 960px
 /* ------------------------------------------------------------------------- */
 @media only screen and (min-width: 960px)

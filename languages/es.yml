@@ -17,11 +17,12 @@ sidebar:
     newer: 'más nuevo'
     older: 'antigüo'
     recents: 'recientes'
+    sticky: 'Popular'
     archives: 'archivos'
     categories: 'categorias'
     links: 'Sitios relacionados'
     tags: 'etiquetas'
-    tag_cloud: 'Nube de Etiquetas'
+    tag_cloud: 'Listado de Etiquetas'
 article:
     comments: 'Comentarios'
     share: 'Compartir'

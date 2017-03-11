@@ -8,12 +8,13 @@ menu:
 
 # Customize
 customize:
-    header-background-image: "/media/background/01_Foto350x1450.jpeg"
-    header-background-image-lowres: "/media/background/01_Foto500x500px.jpeg"
+    header-background-image: "/media/background/Amanecer_double_crop_15x15.jpeg"
+    # header-background-image-lowres: "/media/background/01_Foto500x500px.jpeg"
     logo:
         width: 260px
         height: 156px
-        url: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg"
+        # url: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg"
+        url: "/media/background/Mama%20Antula%20y%20Manuelito_crop2.jpeg"
     theme_color: '#d5c28a'
     highlight: androidstudio
     sidebar: left # sidebar position, options: left, right
@@ -21,7 +22,7 @@ customize:
     favicon: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg" # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
         twitter: https://twitter.com/mamaantula?lang=es
-        facebook: https://www.facebook.com/ProBeatificacionyCanonizacionDeMamaAntula
+        facebook: https://www.facebook.com/groups/130158920477554/?fref=ts
         # google-plus: /
         rss: /atom.xml
         comment: http://mamaantulaorg.blogspot.com.ar/
@@ -32,7 +33,8 @@ widgets:
 #    - category
 #    - archive
 #    - tag
-    - recent_posts
+    - sticky_posts
+#    - recent_posts
     - tagcloud
 
 # Search
@@ -66,6 +68,7 @@ miscellaneous:
         google_plus:
     links:
         Ejercicios Espirituales: http://www.ejerciciosive.org/
+        Ejercicios Espirituales para Jóvenes: http://www.oleadajoven.org.ar/index.php/Articulos/category/18/ejercicios-ignacianos-online
         Canal Youtube: https://youtu.be/909Mcx9onMM
         Agencia informativa católica Argentina: http://aica.org/
         Basílica de Lujan: http://www.basilicadelujan.org.ar/

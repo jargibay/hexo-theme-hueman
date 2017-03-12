@@ -23,6 +23,7 @@ sidebar:
     links: 'Sitios relacionados'
     tags: 'etiquetas'
     tag_cloud: 'Listado de Etiquetas'
+    geovisites: 'Visitantes'
 article:
     comments: 'Comentarios'
     share: 'Compartir'

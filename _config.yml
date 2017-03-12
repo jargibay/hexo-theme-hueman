@@ -36,6 +36,7 @@ widgets:
     - sticky_posts
 #    - recent_posts
     - tagcloud
+    - geovisites
 
 # Search
 search:

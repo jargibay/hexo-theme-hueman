@@ -1,6 +1,7 @@
 # Menus
 menu:
-    Home: /
+    Home: http://www.mamaantula.org/
+    Letters: /
     # Delete this row if you don't want categories in your header nav bar
     Categories:
 #    About: /about/
@@ -19,10 +20,11 @@ customize:
     thumbnail: false # enable posts thumbnail, options: true, false
     favicon: "/media/logo/logo%20MAMA%20ANTULA%20Blanco.svg" # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        twitter: /
-        facebook: /
-        google-plus: /
-        rss: /
+        twitter: https://twitter.com/mamaantula?lang=es
+        facebook: https://www.facebook.com/groups/130158920477554/?fref=ts
+        # google-plus: /
+        rss: /atom.xml
+        comment: http://mamaantulaorg.blogspot.com.ar/
 
 # Widgets
 widgets:

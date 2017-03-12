@@ -8,8 +8,8 @@ menu:
 
 # Customize
 customize:
-    header-background-image: "/media/background/Amanecer_double_crop_15x15.jpeg"
-    # header-background-image-lowres: "/media/background/01_Foto500x500px.jpeg"
+    header-background-image: "/media/background/Amanecer_1280x339.jpeg"
+    header-background-image-lowres: "/media/background/Amanecer_500x501.jpeg"
     logo:
         width: 260px
         height: 156px
@@ -35,8 +35,8 @@ widgets:
 #    - tag
     - sticky_posts
 #    - recent_posts
-    - tagcloud
     - geovisites
+    - tagcloud
 
 # Search
 search:
@@ -49,7 +49,7 @@ comment:
   disqus: # enter disqus shortname here
   duoshuo: # enter duoshuo shortname here
   youyan: # enter youyan uid here
-  facebook: true
+  facebook: false
 
 # Share
 share: default # options: jiathis, bdshare, addtoany, default
